@@ -3,8 +3,8 @@ import './testimonials.scss';
 
 function Testimonials() {
     return (
-        <div className="testimonials">
-            Testimonials
+        <div className="testimonials" id='testimonials'>
+            
         </div>
     )
 }
