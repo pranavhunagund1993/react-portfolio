@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
-import "./intro.scss";
 import { init } from 'ityped';
+import "./intro.scss";
 
 function Intro() {
 
@@ -8,9 +8,10 @@ function Intro() {
 
     useEffect(() => {
         init(textRef.current, { 
-            showCursor: false, 
+            showCursor: true, 
             backDelay: 1500,
-            strings: ["Web Developer", "React Developer", "MERN Full Stack Developer"],
+            backSpeed: 60,
+            strings: ["MERN Full Stack Developer", "Web Developer", "Front End Developer"],
          })
     }, []);
 
