@@ -17,6 +17,7 @@
 
         &.right {
             right: 100px;
+            cursor: pointer;
         }
     }
 
@@ -25,11 +26,7 @@
         display: flex;
         position: absolute;
         left: 0;
-
-        .container {
-            width: 100vw;
-            display: flex;
-            align-items: center;
+git git
             justify-content: center;
 
             .item {
