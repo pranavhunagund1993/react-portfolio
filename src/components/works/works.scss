@@ -26,7 +26,11 @@
         display: flex;
         position: absolute;
         left: 0;
-git git
+
+        .container {
+            width: 100vw;
+            display: flex;
+            align-items: center;
             justify-content: center;
 
             .item {
