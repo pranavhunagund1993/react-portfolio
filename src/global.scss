@@ -1,4 +1,12 @@
 // $ is used to Declare the variables
-$mainColor: #15023a
+$mainColor: #15023a;
 
 // Responsive Web design for different devices
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}) {
+        @content
+    }
+}
