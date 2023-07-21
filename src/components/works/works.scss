@@ -29,7 +29,7 @@
     }
 
     .slider {
-        height: 350px;
+        height: 420px;
         display: flex;
         position: absolute;
         left: 0;
@@ -109,7 +109,7 @@
                         }
 
                         h2 {
-                            font-size: 20px;
+                            font-size: 23px;
 
                             @include mobile {
                                 font-size: 13px;
@@ -117,7 +117,7 @@
                         }
 
                         p {
-                            font-size: 13px;
+                            font-size: 15px;
 
                             @include mobile {
                                 display: none;
@@ -125,7 +125,7 @@
                         }
 
                         span {
-                            font-size: 12px;
+                            font-size: 16px;
                             font-weight: 600;
                             text-decoration: underline;
                             cursor: pointer;

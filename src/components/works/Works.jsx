@@ -9,23 +9,23 @@ function Works() {
         {
             id: "1",
             icon: "./assets/mobile.png",
-            title: "Web Design",
-            desc: "Lorem Ipsum is simply text of the printing and typesetting industry.Lorem Ipsum is simply text of the printing and typesetting industry.",
+            title: "ECommerce Application",
+            desc: "The objective of this project is to create a portal which would allow product information to be updated securely using a mobile device and will allow users to buy goods form the merchant.",
             img: "./assets/LinkedIn.jpg"
         },
         {
             id: "2",
             icon: "./assets/globe.png",
-            title: "Mobile Application",
-            desc: "Lorem Ipsum is simply text of the printing and typesetting industry.Lorem Ipsum is simply text of the printing and typesetting industry.",
-            img: "./assets/LinkedIn.jpg"
+            title: "EdTech Application",
+            desc: "EdTech software (i.e., education technology) are applications that support, facilitate and enhance education by incorporating technology into the learning process.",
+            img: "./assets/education.jpeg"
         },
         {
             id: "3",
             icon: "./assets/writing.png",
-            title: "Branding",
-            desc: "Lorem Ipsum is simply text of the printing and typesetting industry.Lorem Ipsum is simply text of the printing and typesetting industry.",
-            img: "./assets/LinkedIn.jpg"
+            title: "Music Player Application",
+            desc: " The music player with the interactive UI for the easy access for user and used to play mp3 songs.",
+            img: "./assets/music.jpeg"
         }
     ];
 
@@ -51,7 +51,7 @@ function Works() {
                                 </div>
                             </div>
                             <div className="right">
-                                <img src="assets/LinkedIn.jpg" alt="LinkedIn" />
+                                <img src={d.img} alt="" />
                             </div>
                         </div>
                     </div>
